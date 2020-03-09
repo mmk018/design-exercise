@@ -1,0 +1,57 @@
+.container80 {
+    width: 80%;
+    background-color: #fff;
+    height: 70vh;
+    margin: 0 auto;
+}
+h1 {
+    
+    text-align: center;
+    color: green;
+}
+/* .container80:first-child h1 {
+    color: darkgreen;
+} */
+
+
+.container80 .parent:nth-child(2) {
+    margin-top: 30px;
+    height: 10vh;
+    width: 100%;
+    background-color: darkgreen;
+}
+.parent {
+    display:flex;
+    }
+.container80 div:nth-child(4) div, .container80 div:nth-child(5) div, .container80 div:nth-child(6) div {
+    height: 10vh;
+    background-color: green;
+    /* width: 30%; */
+    margin: 10px;
+}
+.container80 div:nth-child(4) div {
+    flex-grow: 1;
+}
+.container80 div:nth-child(5) div {
+    flex-grow: 1;
+}
+.container80 div:nth-child(6) div {
+    flex-grow: 2.06;  /* This only to compensate the margin wiev */
+    padding-right: 10px;
+    
+}
+.container80 div:nth-child(6) div:nth-child(2) {
+    flex-grow: 1;
+}
+.box100 {
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+    color: white;
+    }
+.box100 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}

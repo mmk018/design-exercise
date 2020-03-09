@@ -1,7 +1,7 @@
 {
   "name": "base-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Installation",
   "main": "index.js",
   "scripts": {
     "serve": "live-server"
@@ -10,5 +10,14 @@
   "license": "ISC",
   "devDependencies": {
     "live-server": "^1.2.1"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HH-FBW6/base-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HH-FBW6/base-project/issues"
+  },
+  "homepage": "https://github.com/HH-FBW6/base-project#readme"
 }
